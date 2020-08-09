@@ -216,15 +216,3 @@ class SpotifyPlaylistCreator:
                     playlist_name = playlist_name_dict[month] + str(year)
                     playlist_id = self.create_playlist(playlist_name)
                     self.add_to_playlist(playlist_id, res_track_uris)
-
-
-# gen = SpotifyPlaylistCreator()
-# gen.cluster_songs()
-# gen.get_saved_tracks()
-# gen.create_play_list_by_half_year()
-# gen.create_playlist_for_top_artists("short_term")
-# for term in ['short_term', 'medium_term', 'long_term']:
-#    gen.create_playlist_for_top_songs(term)
-# gen.create_recommendation_playlist_for_term("short_term")
-
-# gen.collect_statistics("short_term")
