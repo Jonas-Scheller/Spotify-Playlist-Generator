@@ -1,4 +1,5 @@
-# Generate spotify playlists based on your listening habits
+# Spotify Playlist Generator
+## Generate spotify playlists based on your listening habits
 This project accesses the spotify api through the spotipy library and enables an easy creation of playlists based on your listening habits. 
 
 Requirements:
